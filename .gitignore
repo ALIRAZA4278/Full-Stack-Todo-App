@@ -1,0 +1,91 @@
+# ===========================================
+# Environment Files (NEVER COMMIT)
+# ===========================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ===========================================
+# Node.js / Frontend
+# ===========================================
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Package manager locks (keep one, ignore others)
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===========================================
+# Python / Backend
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ===========================================
+# IDE / Editor
+# ===========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================================
+# Testing / Coverage
+# ===========================================
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.nyc_output/
+
+# ===========================================
+# Logs
+# ===========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================================
+# Temporary Files
+# ===========================================
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# ===========================================
+# Database
+# ===========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ===========================================
+# Misc
+# ===========================================
+nul

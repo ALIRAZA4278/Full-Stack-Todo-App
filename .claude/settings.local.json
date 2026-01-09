@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(curl:*)",
+      "Bash(taskkill:*)",
+      "Bash(npm run dev)",
+      "Bash(npx @better-auth/cli migrate:*)",
+      "Bash(node run-migration.js:*)",
+      "Bash(del \"E:\\\\GIAIC Q4\\\\HACKATHON 2\\\\Full Stack Todo App\\\\frontend\\\\migration.sql\")",
+      "Bash(del \"E:\\\\GIAIC Q4\\\\HACKATHON 2\\\\Full Stack Todo App\\\\frontend\\\\run-migration.js\")",
+      "Bash(del \"E:\\\\GIAIC Q4\\\\HACKATHON 2\\\\Full Stack Todo App\\\\frontend\\\\auth.ts\")",
+      "Bash(.venv/Scripts/python.exe:*)"
+    ]
+  }
+}
